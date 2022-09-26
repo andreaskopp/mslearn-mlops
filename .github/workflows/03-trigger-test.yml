@@ -1,0 +1,13 @@
+name: Trigger test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  job1:
+    name: job
+    runs-on: ubuntu-latest
+    steps:
+    - name: Placeholder
+      run: |
+        echo "Will add code checks here in next challenge"
